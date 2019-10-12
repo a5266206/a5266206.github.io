@@ -1,0 +1,373 @@
+body  {
+    background-image: url("http://www-scf.usc.edu/~tichengl/HomePageBackground.png");
+}
+
+mark {
+    background-color: rgba(0,0,0, 0.5) !important;
+    color:white;
+}
+
+.leftpart {
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+
+.myphotostyle {
+    width:100%; 
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px;
+}
+
+.leftinfo {
+    margin-left:15px;
+    margin-right:15px;
+    border-radius: 15px;
+    background: #DFF0D8;
+    background: linear-gradient(#DFF0D8, whitesmoke);
+}
+
+.leftinfodiv {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.info {
+    font-family: "Times New Roman", serif;
+    font-size: 45px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+    background-color: gainsboro
+}
+
+th {
+    background-color: #DFF0D8;
+    color: black;
+}
+
+.myname {
+    color: white;
+    margin-top: -135px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    font-size: 115px;
+}
+
+.title {
+    color: #000000 !important;
+    font-size: 72px;
+}
+
+#myproject {
+    font-family: 'Times New Roman', serif;
+    font-size: 45px;
+}
+
+.myicon {
+    width: 90px;
+    height: 90px;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
+}
+
+.gauge-a {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(192, 192, 192, .2);
+    width: 200px;
+    height: 100px;
+    top: 0%;
+    border-radius: 250px 250px 0px 0px;
+}
+
+.gauge-b {
+    z-index: 3;
+    position: absolute;
+    background-color: #fff;
+    width: 125px;
+    height: 63px;
+    top: 40px;
+    margin-left: 38px;
+    margin-right: auto;
+    border-radius: 250px 250px 0px 0px;
+}
+
+#linux,
+#mySQL,
+#angularJS,
+#bootstrap,
+#AWS,
+#wordPress,
+#git,
+#androidStudio {
+    z-index: 2;
+    position: absolute;
+    background-color: #5664F9;
+    width: 200px;
+    height: 100px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 200px 200px;
+    transform-origin: center top;
+    transition: all 1.3s ease-in-out;
+}
+
+#python,
+#SQL,
+#HTML,
+#CSS,
+#php,
+#java,
+#javaScript,
+#c {
+    z-index: 2;
+    position: absolute;
+    background-color: #4FB432;
+    width: 200px;
+    height: 100px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 200px 200px;
+    transform-origin: center top;
+    transition: all 1.3s ease-in-out;
+}
+
+.gauge-data {
+    z-index: 4;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1em;
+    line-height: 15px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-out;
+}
+
+/*Web project image CSS*/
+
+.image {
+    border-radius: 25px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.projectcontainer {
+    margin-bottom: 6vw;
+}
+
+.projectcontainer:hover .overlay {
+    opacity: 1;
+}
+
+.projectcontainer2:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.school {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#school1,
+#school2 {
+    text-align: center;
+}
+
+.projectTitle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-size: 60px;
+}
+
+.demoNow {
+    text-decoration: none;
+    color:lightgray;
+    font-size: 1.5em;
+}
+
+.demoNow:hover {
+    text-decoration: none;
+    color:lightgray;
+}
+
+.white {
+    color: white;
+}
+
+.footercolor {
+    background-color:#D0BAA4;
+}
+
+.footerdividercolor {
+    background-color:#935A34;
+}
+
+.em15 {
+    font-size: 1.5em;
+}
+
+.skill1 {
+    width: 225px;
+    height: 100px; 
+    position: absolute; 
+    left: 1%; 
+    overflow: hidden; 
+    text-align: center;    
+}
+
+.skill2 {
+    width: 225px; 
+    height: 100px; 
+    position: absolute;
+    left: 26%;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.skill3 {
+    width: 225px;
+    height: 100px; 
+    position: absolute; 
+    left: 51%; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.skill4 {
+    width: 225px; 
+    height: 100px;
+    position: absolute; 
+    left: 76%;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.conheight {
+    height: 120px; 
+    margin: 0 auto;
+}
+
+.conheight2 {
+    height: 150px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 991px) {
+    p.info {
+        font-family: "Times New Roman", serif;
+        font-size: 1.2vw;
+    }
+    h1.myname {
+        font-family: "Times New Roman", serif;
+        font-size: 3vw;
+        margin-top: -4vw;
+        margin-left: 10px;
+    }
+    .title {
+        font-size: 1.5vw;
+    }
+    #myproject {
+        font-size: 1.2vw;
+    }
+    .github {
+        width: 20px;
+        height: 20px;
+    }
+    .myicon {
+        width: 40px;
+        height: 40px;
+    }
+    .text {
+        font-size: 1.2vw;
+    }
+    .projectcontainer {
+        margin-bottom: 0px;
+    }
+    #usc,
+    #yzu {
+        margin-bottom: -20px;
+    }
+    .school {
+        width: 90%;
+        height: 90%;
+        margin-left: 0px;
+    }
+    #school1,
+    #school2 {
+        text-align: left;
+    }
+    .projectTitle {
+        text-align: left;
+        margin-left: 4px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 22px;
+    }
+}
