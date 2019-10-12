@@ -1,1 +1,516 @@
-<h1> hello </h1>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ti-Cheng Lin</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--    my style sheet-->   
+    <link rel="stylesheet" href="style.css">
+    <!--    skill script-->
+    <script type="text/javascript">
+        function gauge() {
+            var hundred = 180;
+            var ninety = 162;
+            var ninetyfive = 172;
+            var eightyseven = 157;
+            var ninetyeight = 178;
+            var pHundred = Math.floor((hundred / 180) * 100);
+            var pNinety = Math.floor((ninety / 180) * 100);
+            var pNinetyfive = Math.floor((ninetyfive / 180) * 100);
+            var pNinetyeight = Math.floor((ninetyeight / 180) * 100);
+            var pEightyseven = Math.floor((eightyseven / 180) * 100);
+            document.getElementById('python').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('SQL').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('HTML').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('CSS').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('php').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('java').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('javaScript').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('c').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('linux').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('mySQL').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('angularJS').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('bootstrap').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('AWS').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('wordPress').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('git').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            document.getElementById('androidStudio').setAttribute(
+                "style", "transform: rotate(" + 0 + "deg);");
+            setTimeout(function() {
+                document.getElementById('python').setAttribute(
+                    "style", "transform: rotate(" + ninety + "deg);");
+                document.getElementById('SQL').setAttribute(
+                    "style", "transform: rotate(" + ninety + "deg);");
+                document.getElementById('HTML').setAttribute(
+                    "style", "transform: rotate(" + hundred + "deg);");
+                document.getElementById('CSS').setAttribute(
+                    "style", "transform: rotate(" + hundred + "deg);");
+                document.getElementById('php').setAttribute(
+                    "style", "transform: rotate(" + ninetyfive + "deg);");
+                document.getElementById('java').setAttribute(
+                    "style", "transform: rotate(" + ninetyeight + "deg);");
+                document.getElementById('javaScript').setAttribute(
+                    "style", "transform: rotate(" + ninetyeight + "deg);");
+                document.getElementById('c').setAttribute(
+                    "style", "transform: rotate(" + ninety + "deg);");
+                document.getElementById('linux').setAttribute(
+                    "style", "transform: rotate(" + ninetyfive + "deg);");
+                document.getElementById('mySQL').setAttribute(
+                    "style", "transform: rotate(" + eightyseven + "deg);");
+                document.getElementById('angularJS').setAttribute(
+                    "style", "transform: rotate(" + ninety + "deg);");
+                document.getElementById('bootstrap').setAttribute(
+                    "style", "transform: rotate(" + hundred + "deg);");
+                document.getElementById('AWS').setAttribute(
+                    "style", "transform: rotate(" + ninetyfive + "deg);");
+                document.getElementById('wordPress').setAttribute(
+                    "style", "transform: rotate(" + ninetyfive + "deg);");
+                document.getElementById('git').setAttribute(
+                    "style", "transform: rotate(" + ninety + "deg);");
+                document.getElementById('androidStudio').setAttribute(
+                    "style", "transform: rotate(" + eightyseven + "deg);");
+            }, 200);
+
+            document.getElementById("pPython").innerHTML = pNinety + "%";
+            document.getElementById("pSQL").innerHTML = pNinety + "%";
+            document.getElementById("pHTML").innerHTML = pHundred + "%";
+            document.getElementById("pCSS").innerHTML = pHundred + "%";
+            document.getElementById("pPHP").innerHTML = pNinetyfive + "%";
+            document.getElementById("pJava").innerHTML = pNinetyeight + "%";
+            document.getElementById("pJavaScript").innerHTML = pNinetyeight + "%";
+            document.getElementById("pC").innerHTML = pNinety + "%";
+            document.getElementById("pLinux").innerHTML = pNinetyfive + "%";
+            document.getElementById("pMySQL").innerHTML = pEightyseven + "%";
+            document.getElementById("pAngularJS").innerHTML = pNinety + "%";
+            document.getElementById("pBootstrap").innerHTML = pHundred + "%";
+            document.getElementById("pAWS").innerHTML = pNinety + "%";
+            document.getElementById("pWordPress").innerHTML = pNinetyfive + "%";
+            document.getElementById("pGit").innerHTML = pNinety + "%";
+            document.getElementById("pAndroidStudio").innerHTML = pEightyseven + "%";
+        };
+    </script>
+    <!--    top  button-->
+    <script  type="text/javascript">
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn"><img src="http://www-scf.usc.edu/~tichengl/top.png" /></button>
+    <div class="container-fluid">
+        <div class="row">
+            <!--left part-->
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <br>
+                <div class="leftpart">
+                    <img src="http://www-scf.usc.edu/~tichengl/myPhoto.JPG" class="myphotostyle">
+                    <h1 class="myname"><mark> Ti-cheng Lin </mark></h1>
+                    <div>
+                        <br>
+                        <p class="info">&nbsp&nbsp&nbsp<span class="glyphicon glyphicon-asterisk"></span> &nbsp Software development engineer</p>
+                        <p class="info">&nbsp&nbsp&nbsp<span class="glyphicon glyphicon-send"></span> &nbsp <a href="tichengl@usc.edu" target="_top"> tichengl@usc.edu</a></p>
+                        <p class="info">&nbsp&nbsp&nbsp<span class="glyphicon glyphicon-earphone"></span> &nbsp +1 (213) 352-7864</p>
+                        <p class="info">&nbsp&nbsp&nbsp<span class="glyphicon glyphicon-home"></span> &nbsp Los Angeles, CA90007</p>
+                        <hr>
+                        <CENTER>
+                            <a href="https://www.linkedin.com/in/ti-cheng-lin-393a04b3/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg" class="myicon"></a> &nbsp&nbsp&nbsp
+                            <a href="https://github.com/a5266206" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="myicon"></a> &nbsp&nbsp&nbsp
+                            <a href="https://drive.google.com/file/d/1-zS7m8qeda0yAIxiRki4GhZDTRjzeKab/view" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/resume_icon.png" class="myicon"></a> &nbsp&nbsp&nbsp
+                            <a href="https://www.instagram.com/tclin1023/" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/instagram_logo.png" class="myicon"></a>
+                        </CENTER>
+                        <hr>
+                        <div class="leftinfo">
+                            <div class="leftinfodiv">
+                                <p class="info"><br>&nbsp&nbsp&nbsp&nbsp&nbsp 𝐻𝑒𝓁𝓁𝑜, 𝐼'𝓂 𝒶 𝓅𝓇𝑜𝑔𝓇𝒶𝓂𝓂𝑒𝓇 𝓌𝒾𝓉𝒽 𝓈𝑜𝓁𝒾𝒹 𝒶𝓅𝓅𝓁𝒾𝒸𝒶𝓉𝒾𝑜𝓃 𝑒𝓍𝓅𝑒𝓇𝒾𝑒𝓃𝒸𝑒𝓈 𝓈𝑒𝑒𝓀𝒾𝓃𝑔 𝒻𝑜𝓇 𝐹𝓊𝓁𝓁-𝒯𝒾𝓂𝑒 / 𝐼𝓃𝓉𝑒𝓇𝓃 𝓅𝑜𝓈𝒾𝓉𝒾𝑜𝓃 𝒶𝓈 𝓈𝑜𝒻𝓉𝓌𝒶𝓇𝑒 𝒹𝑒𝓋𝑒𝓁𝑜𝓅𝓂𝑒𝓃𝓉 𝑒𝓃𝑔𝒾𝓃𝑒𝑒𝓇. 𝐻𝑜𝓅𝑒 𝓎𝑜𝓊 𝑒𝓃𝒿𝑜𝓎 𝓂𝓎 𝒹𝒾𝑔𝒾𝓉𝒶𝓁 𝓅𝑜𝓇𝓉𝒻𝑜𝓁𝒾𝑜. <br><br></p>
+                                <br><br>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <!--right part-->
+            <div class="col-xs-12 col-md-8 col-lg-8">
+                <br>
+                <div class="panel-group" id="accordion">
+                    <!--Education-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="title" data-toggle="collapse" data-parent="#accordion" href="#collapse1">EDUCATION</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row" id="usc">
+                                <div class="col-xs-12 col-md-3 col-lg-3">
+                                    <br>
+                                    <a href="https://www.usc.edu/" target="_blank"><img src="https://tclindp.weebly.com/uploads/9/2/5/3/92534432/seal-usc_1.png" class="school"><br></a>
+                                </div>
+                                <div class="col-xs-12 col-md-9 col-lg-9">
+                                    <br>
+                                    <p class="info" id="school1"><a href="https://www.usc.edu/" target="_blank"><b>University of Southern California</b></a><br>Los Angeles, California &nbsp&nbsp&nbsp December 2018<br>Master of Science, Computer Science<br> • Related coursework: Web Technologies / Database Systems / Foundations of Artificial Intelligence / Operating Systems / Analysis of Algorithms / Introduction to Programming Systems Design<br><br></p>
+                                </div>
+                                </div>
+                                <br>
+                                <hr>
+                                <div class="row" id="yzu">
+                                <div class="col-xs-12 col-md-3 col-lg-3">
+                                    <br>
+                                    <a href="https://www.yzu.edu.tw/" target="_blank"><img src="https://tclindp.weebly.com/uploads/9/2/5/3/92534432/yzu-logo.png" class="school"><br></a>
+                                </div>
+                                <div class="col-xs-12 col-md-9 col-lg-9">
+                                    <br>
+                                    <p class="info" id="school2"><a href="https://www.yzu.edu.tw/" target="_blank"><b>Yuan Ze University</b></a><br>Taoyuan, Taiwan &nbsp&nbsp&nbsp June 2015<br> Bachelor of Science, Communications Engineering<br> • 1st place, awarded $650, Peer Academic Scholarship Contest<br><br><br><br></p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Technical Skills-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="title" data-toggle="collapse" data-parent="#accordion" href="#collapse2" onClick="gauge();">TECHNICAL SKILLS</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-xs-12 col-md-12 col-lg-12">
+                                    <p class="info"><span class="glyphicon glyphicon-play"></span>&nbsp<b>Programming Languages:</b></p>
+                                    <div class="row">
+                                        <div class="skill1">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="python"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pPython" class="em15">0%</h1>
+                                                <span>Python</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill2">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="SQL"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pSQL" class="em15">0%</h1>
+                                                <span>SQL</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill3">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="HTML"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pHTML" class="em15">0%</h1>
+                                                <span>HTML</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill4">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="CSS"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pCSS" class="em15">0%</h1>
+                                                <span>CSS</span>
+                                            </div>
+                                        </div>
+                                        <div id="container13" class="conheight"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="skill1">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="php"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pPHP" class="em15">0%</h1>
+                                                <span>PHP</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill2">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="java"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pJava" class="em15">0%</h1>
+                                                <span>Java</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill3">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="javaScript"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pJavaScript" class="em15">0%</h1>
+                                                <span>JavaScript</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill4">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="c"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pC" class="em15">0%</h1>
+                                                <span>C/C++</span>
+                                            </div>
+                                        </div>
+                                        <div id="container14" class="conheight"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-12 col-lg-12">
+                                    <hr>
+                                    <p class="info"><span class="glyphicon glyphicon-play"></span>&nbsp<b>Tools:</b></p>
+                                    <div class="row">
+                                        <div class="skill1">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="linux"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pLinux" class="em15">0%</h1>
+                                                <span>Linux/Unix</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill2">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="mySQL"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pMySQL" class="em15">0%</h1>
+                                                <span>MySQL</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill3">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="angularJS"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pAngularJS" class="em15">0%</h1>
+                                                <span>AngularJS</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill4">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="bootstrap"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pBootstrap" class="em15">0%</h1>
+                                                <span>Bootstrap</span>
+                                            </div>
+                                        </div>
+                                        <div id="container11" class="conheight2"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="skill1">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="AWS"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pAWS" class="em15">0%</h1>
+                                                <span>AWS</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill2">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="wordPress"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pWordPress" class="em15">0%</h1>
+                                                <span>WordPress</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill3">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="git"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pGit" class="em15">0%</h1>
+                                                <span>Git</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill4">
+                                            <div class="gauge-a"></div>
+                                            <div class="gauge-b"></div>
+                                            <div id="androidStudio"></div>
+                                            <div class="gauge-data">
+                                                <h1 id="pAndroidStudio" class="em15">0%</h1>
+                                                <span>Android Studio</span>
+                                            </div>
+                                        </div>
+                                        <div id="container12" class="conheight"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="title" data-toggle="collapse" data-parent="#accordion" href="#collapse3">SELECTED PROJECTS</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse in">
+                            <div class="panel-body" id="myproject">
+                                <div class="projectTitle">
+                                <b>&bull; Artificial Intelligence</b><br>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6 col-lg-6 projectcontainer">
+                                        <img src="http://www-scf.usc.edu/~tichengl/gridworld.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Grid World Game&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/GridWorld_Value_Iteration" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Achieved the best next move and expected utility from implementing the MDPs and value iteration in python and optimized the performance with NumPy library.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 col-lg-6 projectcontainer2">
+                                        <img src="http://www-scf.usc.edu/~tichengl/FIFA.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">2018 FIFA World Cup Group Distribution&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/FIFAWorldCup_GroupDistribution" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Devised the national teams across the groups based on the team confederation and pot constraints implementing backtracking-based search algorithm, DPLL, to solve the propositional satisfiability problem.</div>
+                                        </div>
+                                    </div>
+                                </div>   
+                                <hr>
+                                <div class="projectTitle">   
+                                    <b>&bull; Website Design</b><br>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6 col-lg-6 projectcontainer">
+                                        <img src="http://www-scf.usc.edu/~tichengl/stock2.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Responsive stock search webpage&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/webPortfolioCode/tree/master/responsiveStockSearch" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Used AJAX, AngularJS, and Bootstrap to perform a responsive stock searching website in AWS, and post details to Facebook.<br><br><a class="demoNow" href="http://tichengl-usc571web.us-west-1.elasticbeanstalk.com/" target="_blank"><b>Demo Now</b></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 col-lg-6 projectcontainer2">
+                                        <img src="http://www-scf.usc.edu/~tichengl/airline.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">US airlines information webpage&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/webPortfolioCode/tree/master/airlineList" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Built an airlines search UI that extract the URL of airlines file name and display the content in a table.<br><br><a class="demoNow" href="http://www-scf.usc.edu/~tichengl/hw4/tichengAirlineList.html" target="_blank"><b>Demo Now</b></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="projectcontainer col-xs-12 col-md-6 col-lg-6">
+                                        <img src="http://www-scf.usc.edu/~tichengl/stock1.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Stock search webpage&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/webPortfolioCode/tree/master/stockSearch" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Implemented the Alpha Vantage real-time stock quote API and Seeking Alpha News RSS to parse XML and JSON documents in PHP.<br><br><a class="demoNow" href="http://tcl-stocksearch.us-west-1.elasticbeanstalk.com/" target="_blank"><b>Demo Now</b></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="projectcontainer2 col-xs-12 col-md-6 col-lg-6">
+                                        <img src="http://www-scf.usc.edu/~tichengl/financial.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Financial company webpage&nbsp;&nbsp;&nbsp;<a href="https://github.com/a5266206/webPortfolioCode/tree/master/reproducedWebpage" target="_blank"><img src="http://www-scf.usc.edu/~tichengl/github_logo.png" class="github"></a><br><br>Reproduced a given image of a personal installment loans web page in HTML and CSS.<br><br><a class="demoNow" href="http://www-scf.usc.edu/~tichengl/hw3/tichengLoans.html" target="popup" onclick="window.open('hw3/tichengLoans.html','popup','width=1100,height=1000'); return false;"><b>Demo Now</b></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="projectTitle">
+                                    <b>&bull; Weenix Operating System</b><br>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6 col-lg-6 projectcontainer">
+                                        <img src="http://www-scf.usc.edu/~tichengl/weenix.jpg" alt="stock" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Weenix Operating System&nbsp;&nbsp;&nbsp;<br><br>Used C and QEMU emulator to create process threads and implement FIFO scheduler, specific system calls in a virtual file system and virtual memory management system.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Work Experience-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="title" data-toggle="collapse" data-parent="#accordion" href="#collapse4">WORK EXPERIENCE</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <br>
+                                <p class="info">
+                                    <b>Web Development Intern</b> &nbsp&nbsp&nbsp April 2018 - Present<br> RG Pacific LLC - Digital Marketing & E-Commerce, Los Angeles, California <br><br> • Designed and customized user interface on web frontend utilizing cross-browser jQuery based plugins.<br> • Hosted and maintained E-Commerce websites on WordPress backend.<br> • Analyzed bug-tracking workflow and CRM tools to improve quality of the mobile webpage.<br></p>
+                                <hr>
+                                <p class="info">
+                                    <b>Information Technology Support Assistant</b> &nbsp&nbsp&nbsp September 2015 - August 2016<br> Communication, Electronics & Information Corps Coastal Patrol Directorate, Taipei, Taiwan<br><br> • Conducted the military web application system testing and monitoring at the duty command center.<br> • Experienced with Git development for system testing and operated a multi-platform computer environment.<br></p>
+                                <hr>
+                                <p class="info"><b>Directed Research at wireless transmission and IC design lab</b> &nbsp&nbsp&nbsp December 2014 - June 2015<br> Yuan Ze University, Taoyuan, Taiwan<br><br> • Designed a high resolution optimal design method for ROM-less of the logarithmic arithmetic unit using a non-uniform regional linear approximation and compensation method of logarithmic arithmetic unit and the optimal mean-square-error.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Certificates-->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="title" data-toggle="collapse" data-parent="#accordion" href="#collapse5">CERTIFICATES</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="info">Professional Writing and Communication for internships, University of Southern California, Los Angeles, CA<br></p>
+                                <hr>
+                                <p class="info">Multimedia Network Design Program Certificate, Yuan Ze University, Taoyuan, Taiwan<br></p>
+                                <hr>
+                                <p class="info">Communication System & Signal Processing Program Certificate, Yuan Ze University, Taoyuan, Taiwan<br></p>
+                                <hr>
+                                <p class="info">Microsoft Office Specialist (MOS) on Word 2010 (License wb8Bc-FMEL)<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div><br></div>
+    <div class="footerdividercolor">&nbsp;</div>
+    <div class="footercolor">
+        <CENTER>
+            <br>
+            <p class="white">©2018 All rights reserved.</p>
+            <a class="white" href="tichengl@usc.edu" target="_top">tichengl@usc.edu</a>
+            <br>
+            <br>
+        </CENTER>
+    </div>
+</body>
+
+</html>
